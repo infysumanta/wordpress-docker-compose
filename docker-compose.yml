@@ -3,7 +3,7 @@ version: '3'
 services:
   mysql:
     container_name: wordpress_mysql
-    image: mysql:5.7
+    image: mysql:5.7-debian
     volumes:
       - db_data:/var/lib/mysql
     ports:
