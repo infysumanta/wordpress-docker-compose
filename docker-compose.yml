@@ -17,7 +17,7 @@ services:
     container_name: wordpress_web
     depends_on:
       - mysql
-    image: wordpress:latest
+    image: wordpress:6.2.2-apache
     restart: always
     ports:
       - "8080:80"
